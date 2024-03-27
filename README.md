@@ -1,6 +1,5 @@
 # Let-s-Vibe
 
-![image](https://github.com/js22js/Let-s-Vibe/assets/79521692/9bb87373-e377-4437-b0b9-6678ef5f353e)
 
 ![image](https://github.com/js22js/Let-s-Vibe/assets/79521692/8da9f858-d849-46f6-825d-8bed53108037)
 
