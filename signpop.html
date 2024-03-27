@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Vibe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/Spotify Logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <a href="">
+                <img src="./images/logo.png" alt="" width="50" height="70">
+            </a>
+
+        <div class="navigation">
+            <ul>
+                
+                <li>
+                    <a href="./index.html">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fas fa-book"></span>
+                        <span>Your Library</span>
+                    </a>
+                </li>
+<li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="policies">
+            <ul>
+                <li>
+                    <a href="">Cookies</a>
+                </li>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    
+                </ul>
+                <button type="button" onclick="redirectToSignup()">Login</button>
+            </div>
+        </div>
+
+        <div class="spotify-playlists">
+            <h2>Tamil Songs</h2>
+
+            <div class="list">
+                <div class="item">
+                    <img src="./images/Today's Top Hits.jpg" />
+                    <div class="play" onclick="redirectToSong11()">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Today's Top Hits</h4>
+                    <p>Top hits of tamil songs 2023</p>
+                </div>
+
+<div class="item">
+                    <img src="./images/lf.jpg" />
+                    <div class="play" onclick="redirectToSong12()">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Love Failure Songs</h4>
+                    <p>Best Love Failure songs of this era!!</p>
+                </div>
+                
+
+                
+            </div>
+        </div>
+
+        <div class="spotify-playlists">
+            <h2>English Songs</h2>
+            <div class="list">
+
+                <div class="item">
+                    <img src="./images/English Hits.jpg" />
+                    <div class="play" onclick="redirectToSong21()">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Top English Hits</h4>
+                    <p>Best of english songs...</p>
+                </div>
+
+
+
+
+            </div>
+
+            <hr>
+        </div>
+
+    </div>
+
+    <div class="preview">
+        <div class="text">
+            <h6><b>Sign up to get all features of Let's Vibe</b></br>
+            <ul><li>Create Custom Library</li><li>Access to Liked Songs</li></ul></h6>
+        </div>
+        <div class="button">
+            <button type="button" onclick="redirectToSignup()">Sign up free</button>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
+<script>function redirectToSong11() {
+        window.location.href = './s11/song.html';
+    }
+function redirectToSong12() {
+        window.location.href = './s12/song.html';
+    }
+function redirectToSong21() {
+        window.location.href = './s21/song.html';
+    }
+function redirectToSignup() {
+        window.location.href = './SignUp.php';
+    }
+</script>
+</body>
+
+</html>
