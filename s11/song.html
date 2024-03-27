@@ -1,0 +1,116 @@
+<!-- This line specifies the document type as HTML -->
+<!DOCTYPE html>
+
+<!-- This line starts the HTML document and sets the default language to English -->
+<html lang="en">
+  <head>
+    <!-- This line specifies the character encoding used in the document -->
+    <meta charset="UTF-8" />
+
+    <!-- This line specifies the compatibility mode for Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- This line sets the viewport properties for responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This line sets the title of the webpage that appears in the browser tab -->
+    <title>Let's Vibe - Today's Top Hits</title>
+
+    <!-- This line links the external CSS file to style the webpage -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- This line specifies the icon used in the browser tab -->
+    <link rel="icon" type="image/x-icon" href="Spotify Logo.jpg" />
+  </head>
+
+  <body>
+    <!-- This code block defines the navigation bar of the webpage -->
+    <nav>
+      
+        <!-- This line defines the brand logo and text -->
+        <a href="../index.html"><img src="Spotify Logo.jpg" alt="" /></a>
+      
+    </nav>
+    <!-- This code block defines the main content area of the webpage -->
+    <div class="container">
+      <div class="songList">
+        <!-- This line defines the title of the song list -->
+        <h1 style="color: black;">Today's Top Hits</h1>
+        <!-- This code block defines the list of songs and their details -->
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Ordinary Person (LEO) </span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+               <i id="0" class="far songItemPlay fa-play-circle"></i>
+		 </span></span>
+          </div><br>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Naa ready tha Varava (LEO) </span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="1" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div><br>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName"> Vaa Senthaazhini (ADIYAE) </span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="2" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+       
+          
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <!-- A bottom div for displaying song controls -->
+    <div class="bottom">
+      <!-- A progress bar input element -->
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+   
+      <div class="icons">
+        
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+       
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+      
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+      </div>
+     
+      <div class="songInfo">
+      
+        <img src="playing.gif" width="42px" alt="" id="gif" />
+   
+        
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <script
+      src="https://kit.fontawesome.com/26504e4a1f.js"
+      crossorigin="anonymous"
+
+
+
+
+
+    ></script>
+  </body>
+</html>
